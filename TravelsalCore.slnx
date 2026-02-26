@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="BusinessLayer/BusinessLayer.csproj" Id="25c7a566-af0e-43c4-a6b1-1487dc0eab43" />
+  <Project Path="DataAccessLayer/DataAccessLayer.csproj" Id="23320373-c281-4633-9379-459ddc7f2081" />
+  <Project Path="EntityLayer/EntityLayer.csproj" Id="5901c350-b8d1-49cf-a0f4-3a2fbd1ae749" />
   <Project Path="TravelsalCore/TraversalCore.csproj" />
 </Solution>
