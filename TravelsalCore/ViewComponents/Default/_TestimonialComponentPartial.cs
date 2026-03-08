@@ -4,12 +4,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace TraversalCore.ViewComponents.Default
 {
-    public class _PopularDestinationComponentPartial : ViewComponent
+    public class _TestimonialComponentPartial : ViewComponent
     {
-        DestinationManager destinationManager = new DestinationManager( new EfDestinationDal());
+        TestimonialManager testimonialManager = new TestimonialManager(new EfTestimonialDal());
         public IViewComponentResult Invoke()
         {
-            var values = destinationManager.TGetList();
+            var values = testimonialManager.TGetList();
             return View(values);
         }
     }
